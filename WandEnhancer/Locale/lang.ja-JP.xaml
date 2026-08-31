@@ -30,6 +30,8 @@
     <s:String x:Key="pv_devtools">F12でDevTools</s:String>
     <s:String x:Key="pv_disable_updates">アップデートを無効化</s:String>
     <s:String x:Key="pv_remote_web_panel_preview">リモートアクセスを有効化（ベータ）</s:String>
+    <s:String x:Key="pv_auto_repair">Wandアップデート後に自動修復</s:String>
+    <s:String x:Key="pv_auto_repair_hint">Wandが更新されたときにパッチを自動的に再適用します。</s:String>
     <s:String x:Key="pv_custom_scripts">カスタムスクリプト</s:String>
     <s:String x:Key="pv_add_js_scripts">.js を追加</s:String>
     <s:String x:Key="pv_custom_scripts_hint">選択した .js ファイルは Wand に組み込まれ、レンダラーで読み込まれます。</s:String>

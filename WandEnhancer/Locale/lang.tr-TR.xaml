@@ -30,6 +30,8 @@
     <s:String x:Key="pv_devtools">F12 ile DevTools</s:String>
     <s:String x:Key="pv_disable_updates">Güncellemeleri devre dışı bırak</s:String>
     <s:String x:Key="pv_remote_web_panel_preview">Uzaktan erişimi etkinleştir (beta)</s:String>
+    <s:String x:Key="pv_auto_repair">Wand guncellemelerinden sonra otomatik onar</s:String>
+    <s:String x:Key="pv_auto_repair_hint">Wand guncellendiginde duzeltme ekinizi otomatik olarak uygulanmis tutar.</s:String>
     <s:String x:Key="pv_custom_scripts">Özel betikler</s:String>
     <s:String x:Key="pv_add_js_scripts">.js ekle</s:String>
     <s:String x:Key="pv_custom_scripts_hint">Seçilen .js dosyaları Wand içine paketlenir ve renderer'da yüklenir.</s:String>

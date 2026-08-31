@@ -30,6 +30,8 @@
     <s:String x:Key="pv_devtools">DevTools mit F12</s:String>
     <s:String x:Key="pv_disable_updates">Updates deaktivieren</s:String>
     <s:String x:Key="pv_remote_web_panel_preview">Remote-Zugriff aktivieren (Beta)</s:String>
+    <s:String x:Key="pv_auto_repair">Nach Wand-Updates automatisch reparieren</s:String>
+    <s:String x:Key="pv_auto_repair_hint">Bewahrt deinen Patch auf, wenn Wand ein Update installiert.</s:String>
     <s:String x:Key="pv_custom_scripts">Benutzerdefinierte Skripte</s:String>
     <s:String x:Key="pv_add_js_scripts">.js hinzufügen</s:String>
     <s:String x:Key="pv_custom_scripts_hint">Ausgewählte .js-Dateien werden in Wand gepackt und im Renderer geladen.</s:String>

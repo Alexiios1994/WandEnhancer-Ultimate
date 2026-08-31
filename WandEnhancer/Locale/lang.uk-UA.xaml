@@ -30,6 +30,8 @@
     <s:String x:Key="pv_devtools">DevTools на F12</s:String>
     <s:String x:Key="pv_disable_updates">Вимкнути оновлення</s:String>
     <s:String x:Key="pv_remote_web_panel_preview">Увімкнути віддалений доступ (бета)</s:String>
+    <s:String x:Key="pv_auto_repair">Автоматичний ремонт після оновлень Wand</s:String>
+    <s:String x:Key="pv_auto_repair_hint">Автоматично зберігає патч застосованим при оновленні Wand.</s:String>
     <s:String x:Key="pv_custom_scripts">Користувацькі скрипти</s:String>
     <s:String x:Key="pv_add_js_scripts">Додати .js</s:String>
     <s:String x:Key="pv_custom_scripts_hint">Вибрані файли .js пакуються у Wand і завантажуються в рендерері.</s:String>

@@ -30,6 +30,8 @@
     <s:String x:Key="pv_devtools">DevTools на F12</s:String>
     <s:String x:Key="pv_disable_updates">Отключить обновления</s:String>
     <s:String x:Key="pv_remote_web_panel_preview">Remote-доступ (beta)</s:String>
+    <s:String x:Key="pv_auto_repair">Авто-восстановление после обновлений Wand</s:String>
+    <s:String x:Key="pv_auto_repair_hint">Автоматически сохраняет патч применённым при обновлении Wand.</s:String>
     <s:String x:Key="pv_custom_scripts">Свои скрипты</s:String>
     <s:String x:Key="pv_add_js_scripts">Добавить .js</s:String>
     <s:String x:Key="pv_custom_scripts_hint">Выбранные .js попадут в Wand и загрузятся в renderer.</s:String>

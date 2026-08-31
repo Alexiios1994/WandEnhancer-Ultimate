@@ -72,6 +72,7 @@
         <Compile Include="Converters\ToVisibilityConverter.cs" />
         <Compile Include="Core\Enhancer.cs" />
         <Compile Include="Core\EnhancerConfig.cs" />
+        <Compile Include="Core\Services\AutoPatcherService.cs" />
         <Compile Include="Core\Services\LocalizationManager.cs" />
         <Compile Include="Core\Services\SettingsManager.cs" />
         <Compile Include="Models\WeModConfig.cs" />

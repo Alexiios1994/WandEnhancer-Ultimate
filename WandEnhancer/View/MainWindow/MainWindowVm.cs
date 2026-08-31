@@ -5,6 +5,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 using WandEnhancer.Core;
+using WandEnhancer.Core.Services;
 using WandEnhancer.Models;
 using WandEnhancer.ReactiveUICore;
 using WandEnhancer.Utils;
@@ -156,6 +157,11 @@ namespace WandEnhancer.View.MainWindow
                     {
                         new Enhancer(WeModInfo, Log, config).Patch();
                         AlreadyPatched = true;
+                        AutoPatcherService.RecordAppliedPatch(WeModInfo, config);
+                        if (config.AutoApplyPatches)
+                        {
+                            AutoPatcherService.StartWatch(Log);
+                        }
                     }
                     catch (Exception e)
                     {

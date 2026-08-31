@@ -99,7 +99,7 @@ namespace WandEnhancer.View.Popups
             {
                 PatchTypes = result,
                 CustomScriptPaths = _selectedScripts.Select(script => script.FullPath).ToList(),
-                AutoApplyPatches = false
+                AutoApplyPatches = AutoRepairBox.IsChecked == true
             });
         }
 

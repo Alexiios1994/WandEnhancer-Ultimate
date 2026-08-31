@@ -30,6 +30,8 @@
     <s:String x:Key="pv_devtools">按 F12 打开开发者工具</s:String>
     <s:String x:Key="pv_disable_updates">禁用更新</s:String>
     <s:String x:Key="pv_remote_web_panel_preview">启用远程访问（beta）</s:String>
+    <s:String x:Key="pv_auto_repair">Wand 更新后自动修复</s:String>
+    <s:String x:Key="pv_auto_repair_hint">在 Wand 更新时自动保持补丁已应用。</s:String>
     <s:String x:Key="pv_custom_scripts">自定义脚本</s:String>
     <s:String x:Key="pv_add_js_scripts">添加 .js</s:String>
     <s:String x:Key="pv_custom_scripts_hint">选中的 .js 文件会打包到 Wand 并在渲染器中加载。</s:String>
